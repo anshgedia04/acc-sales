@@ -54,3 +54,14 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+# Accurate Sales
+
+## Firebase App Distribution
+
+The Firebase project is `gen-lang-client-0112905385` and the registered Android App ID is `1:219751118014:android:6d80d23124605ef9a21aef`.
+
+Create an Android tester APK with `npx eas-cli build --platform android --profile preview`, download the finished APK, then distribute it with:
+
+```powershell
+./scripts/distribute-android.ps1 -ApkPath "C:\path\to\accurate-sales.apk" -Testers "tester@example.com"
+```
